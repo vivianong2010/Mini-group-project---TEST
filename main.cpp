@@ -103,6 +103,7 @@ void results(){
 
 //CLASS RESULT
 void classResults(){
+    
     student stud;
     ifstream stdinFile;
     stdinFile.open("student.dat", ios::binary);
@@ -225,7 +226,6 @@ void writestd(){
     cin.ignore();
     cin.get();
 }
-
 
 //DISPLAY ALL REGISTED STUDENTS RECORD
 void displayAll(){
